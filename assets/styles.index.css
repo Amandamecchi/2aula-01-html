@@ -38,16 +38,30 @@ flex-direction: row;
 justify-content: space-between;
 }
 main {
-    background-color:#d887cc;
+    background-color:#cd83b8;
     border-radius: 6px;
     height: 100%;
     width: 74%; 
 }
 
 aside{
-    background-color:#d968d1;
+    background-color:#e78fc1;
     border-radius: 6px;
     heigth: 100%;
     width: 25%;
 }
-        
+footer {
+    background-color:rgb(231, 211, 223);
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+        footer p {
+            color:rgb(0, 0, 0);
+            font-size: 1.2rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
