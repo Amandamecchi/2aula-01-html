@@ -20,12 +20,34 @@
 
 }
 header {
-    background-color:rgb(210, 133, 184);
+    background-color:rgb(235, 182, 218);
     border-radius: 6px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* vertical*/
     align-items: center; 
+}
+#principal {
+    
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+main {
+    background-color:#d887cc;
+    border-radius: 6px;
+    height: 100%;
+    width: 74%; 
+}
+
+aside{
+    background-color:#d968d1;
+    border-radius: 6px;
+    heigth: 100%;
+    width: 25%;
 }
         
